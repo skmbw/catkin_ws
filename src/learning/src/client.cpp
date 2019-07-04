@@ -14,7 +14,8 @@ int main(int argc, char **argv) {
 
 	// 简单校验参数是否为三个
 	if (argc != 3) {
-		ROS_INFO("USAGE: add_tow_ints_client X Y");
+		// ROS_INFO("USAGE: add_tow_ints_client X Y");
+		ROS_INFO("USAGE: rosrun learning client X Y");
 		return 1;
 	}
 
